@@ -2,4 +2,4 @@ import './Display.css';
 import React from 'react';
 
 export default props => 
-    <div></div>
+    <div className='display'>{props.value}</div>
